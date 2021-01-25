@@ -1,3 +1,3 @@
 # Class Roster
 - Michael Hilton (mhilton)
-- Charlotte Simpson (csimpson)
+- Charlotte P. Simpson (csimpson)

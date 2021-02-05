@@ -1,0 +1,30 @@
+Homework one commands used
+
+git config --global user.email "connorv@andrew.cmu.edu"
+git config --global user.name "connorvalentine"
+git clone https://github.com/cmu-crafting-software/Homework01
+Cd Homework01
+git branch connorv
+git checkout connorv
+Opened file in text editor and added name
+git add .
+git commit -m "added connorv"
+git push origin connorv
+Use link to make pull request
+
+Made student_facts.txt
+Git add . 
+Git commit -m “added connorv2”
+Git branch connorv2
+Git checkout connorv2
+Make changes to student facts
+Git add . 
+Git commit -m
+Git checkout connorv
+Made changs to student facts
+Git add.
+Cit commit -m
+git merge connorv2
+Fixed conflicts 
+Git add .
+git commit -m "fixed conflicts"

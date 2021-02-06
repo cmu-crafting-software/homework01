@@ -1,3 +1,3 @@
 3rd year - Mellon College of Science 
 python
-
+I always get confused by the word "push". I'm Brazilian and in Portuguese we have the word "puxe", which has basically the same pronuciation, but it means "pull".

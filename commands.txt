@@ -1,0 +1,47 @@
+First part
+
+- Clone repo: git clone https://github.com/cmu-crafting-software/Homework01.git
+
+- Create branch: git branch andresar
+
+- Switch to my branch: git checkout andresar
+
+- Modify ClassRoster.md: vim ClassRoster.md
+
+- Stage changes: git add ClassRoster.md
+
+- Commit changes: git commit -m "Andresa's modifications"
+
+- Push to my branch: git push origin andresar
+
+Second part
+
+- Create, stage and commit student_facts.txt:
+vim student_facts.txt	
+git add student_facts.txt
+git commit -m "added information about my year and college"
+
+- Create and switch to new branch:
+git branch new_andresar
+git checkout new_andresar
+
+- Modify students_facts.txt and commit in the new branch:
+vim student_facts.txt 
+git add student_facts.txt
+git commit -m "added a fun fact about myself to students_facts.txt"
+
+- Modify students_facts.txt and commit in the original branch:
+git checkout andresar
+vim student_facts.txt 
+git add student_facts.txt
+git commit -m "added programing language to students_facts.txt"
+
+- Merge branches: git merge new_andresar
+
+-Fix conflict:
+vim student_facts.txt 
+git add student_facts.txt
+git commit -m "fixed conflict in students_facts.txt"
+
+
+

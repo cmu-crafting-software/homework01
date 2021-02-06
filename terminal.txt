@@ -1,0 +1,37 @@
+# cloning the repo
+git clone https://github.com/cmu-crafting-software/Homework01.git
+
+# naming and moving to the new branch
+git checkout -b akolluru
+
+# staging and committing student list
+git add ClassRoster.md
+git commit -m "added name and andrewid:akolluru"
+
+# pushing the changes
+git push origin akolluru
+
+# staging and committing student_facts.txt in akolluru branch 
+git add student_facts.txt
+git commit -m "added year and college:akolluru"
+
+# creating a new branch and moving to that
+git checkout -b new_akolluru
+
+# changing student_fact.txt here and committing
+git add student_fact.txt
+git commit -m "added a fact: akolluru"
+
+# moving to old branch
+git checkout akolluru
+
+# appending a line to student_facts.txt and committing
+git add student_facts.txt
+git commit -m "added programming info"
+
+# merging with new_akolluru branch
+git merge new_akolluru
+
+# committing
+git add student_facts.txt
+git commit -m "resolved merge conflicts by adding all info"

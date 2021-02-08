@@ -1,0 +1,29 @@
+Crafting Software Homework 01 Script
+
+cd Desktop/
+git config --global user.name “lhabib95”
+git config --global user.email “lhabib@andrew.cmu.edu”
+git clone https://github.com/cmu-crafting-software/Homework01.git
+cd Homework01
+git branch lhabib
+git checkout lhabib
+git add ClassRoster.md
+git commit -m “Add Luke’s name to class roster file”
+git push origin lhabib
+touch student_facts.txt
+git add student_facts.txt
+git commit -m “Create student facts file and add current year and college that I am in”
+git branch lhabibNEW
+git checkout lhabibNEW
+git add student_facts.txt
+git commit -m “Delete current content, add a sentence including a fun fact about myself”
+git checkout lhabib
+git add student_facts.txt
+git commit -m “Append file with sentence about coding experience” 
+git merge lhabibNEW
+git add student_facts.txt
+git commit -m “Resolve conflicts between the student fact files in the two branches so I can merge”
+git merge lhabibNEW
+touch Homework01script.txt
+git add Homework01script.txt
+git commit -m "Create file to include all necessary commands for Homework01"

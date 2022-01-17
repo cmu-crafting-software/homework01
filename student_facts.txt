@@ -3,3 +3,5 @@ I used many languages in the past, including C++, OCaml, and Haskell.
 Nowadays my main languages are: Typescript, Domain, Subbstance, and Style.
 The last three I developed and am still maintaining for the Penrose
 diagramming platform! 
+I spend 10~20 hrs playing pool every week. Perhaps just a little more
+serious about pool versus work. 

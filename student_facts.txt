@@ -1,1 +1,5 @@
 Wode "Nimo" Ni - ISR, SCS 4th year Ph.D. student
+I used many languages in the past, including C++, OCaml, and Haskell.
+Nowadays my main languages are: Typescript, Domain, Subbstance, and Style.
+The last three I developed and am still maintaining for the Penrose
+diagramming platform! 

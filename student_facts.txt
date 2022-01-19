@@ -1,1 +1,2 @@
 I am a third year PhD student in the College of Engineering. 
+I have coded in R, Matlab, and python. I took Introduction to Programming with Python in the spring of 2021. 

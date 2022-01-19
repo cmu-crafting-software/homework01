@@ -1,2 +1,3 @@
 I am a third year PhD student in the College of Engineering. 
 I have coded in R, Matlab, and python. I took Introduction to Programming with Python in the spring of 2021. 
+The summer after I graduated from undergrad, I sang in St. Peter's Basilica and the Sistine Chapel with my choir.

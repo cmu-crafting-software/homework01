@@ -1,0 +1,17 @@
+git clone https://github.com/lviornery/Homework01.git
+cd Homework01/
+git checkout -b lviorner
+nano ClassRoster.md
+git commit -a -m "Added Luis Viornery to roster"
+git push --set-upstream origin lviorner
+nano student_facts.txt
+git add *
+git commit -a -m "Added a student facts doc"
+git checkout -b "new_lviorner"
+nano student_facts.txt
+git commit -a -m "Removed biographical info and added a fun fact"
+git checkout lviorner
+nano student_facts.txt
+git commit -a -m "Added programming languages"
+git merge new_lviorner
+nano student_facts.txt

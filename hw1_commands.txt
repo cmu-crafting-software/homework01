@@ -1,0 +1,73 @@
+Homework 1 Commands:
+
+cd SoftwareCrafting
+
+git clone https://github.com/cmu-crafting-software/Homework01.git
+
+(CLONED no issues)
+
+ls
+
+(see Homework01) 
+cd Homework01
+
+git branch
+
+(sees I am in * main)
+
+git branch dnaef 
+
+(created new branch)
+
+git checkout dnaef
+
+(switch to new branch)
+
+(opened VSCode and added “D’Nae Ferguson (dnaef)” to class roster file)
+
+git status 
+
+(sees ClassRoster.md not staged for commit)
+
+git add ClassRoster.md
+
+git diff —staged
+
+(sees change added)
+
+git commit -m “Added D’Nae Ferguson to the roster”
+
+git push origin dnaef
+
+———————————————————
+cat > student_facts.txt
+I am a first year Master’s student in the School of Engineering.
+
+cat student_facts.txt 
+(verify it exists)
+
+git add student_facts.txt
+git commit -m “Added information about year and college”
+
+git checkout -b new_dnaef
+(created a new branch “new_dnaef” and switched to the branch)
+(modified student_facts.txt file in VSCode)
+
+git add student_facts.txt
+git commit -m “ Deleted year and college and added fun fact”
+
+git checkout dnaef
+(Appended coding languages to the file in VSCode)
+git add student_facts.txt
+git commit -m “Added familiar programming languages”
+git merge new_dnaef
+
+
+git add student_facts.txt
+git commit -m “Merged both branches to aggregate student facts into one file”
+
+cat > hw1_commands.txt
+git add hw1_commands.txt
+git commit -m "Created commands file"
+git push origin dnaef
+

@@ -1,3 +1,3 @@
 # Class Roster
 - Michael Hilton (mhilton)
-- Katie Jordan (khjordan)
+- Katie Jordan (kjordan)

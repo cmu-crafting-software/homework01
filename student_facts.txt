@@ -1,2 +1,5 @@
-Dietrich 2024
+I took Intro to Python in undergrad, and have taken a bunch of ML courses at
+CMU in which I wrote in Python. For other courses and my research, I've used
+R. Stata is a program that is popular with economists, but it's mostly a
+scripting language with some rudimentary programming elements.
 

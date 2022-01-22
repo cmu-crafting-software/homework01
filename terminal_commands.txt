@@ -1,0 +1,24 @@
+Homework 1:
+git clone https://github.com/cmu-crafting-software/Homework01.git
+git branch "dhcheng"
+git checkout dhcheng
+code ClassRoster.md
+git add ClassRoster.md
+git commit -m "added dhcheng"
+git push origin dhcheng
+
+code student_facts.txt
+git add student_facts.txt
+git commit -m "added facts for Darren Cheng"
+git branch new_dhcheng
+git checkout new_dhcheng
+code student_facts.txt
+git add student_facts.txt
+git commit -m "added fun fact for Darren"
+git checkout dhcheng
+code student facts
+git add student facts.txt
+git commit -m "added languages and courses for Darren"
+git merge new_dhcheng
+git add student_facts.txt
+git commit -m "merged changes"

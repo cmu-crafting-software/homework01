@@ -23,4 +23,5 @@ echo > hw1Commands.txt
 git add hw1Commands.txt
 git commit -m "..."
 git status
+git pull hw1 morganc
 git push hw1 morganc

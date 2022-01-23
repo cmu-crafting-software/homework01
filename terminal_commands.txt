@@ -32,3 +32,4 @@ copy con terminal_commands.txt
 "added all commands to txt file"
 git add terminal_comands.txt
 git commit -m "added final file for homework 1"
+git push origin jackj

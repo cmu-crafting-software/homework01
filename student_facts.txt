@@ -1,4 +1,3 @@
 I am a 1st year Chemical Engineering PhD student
-I've taken an intro class to python and some of my chemical eng courses have included some coding
-I like to go skiing
+
 

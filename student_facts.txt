@@ -1,1 +1,2 @@
 2nd year College of Engineering 
+Dom has taken a class on MATLAB and R. He has minimal experience in python.

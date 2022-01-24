@@ -1,1 +1,3 @@
 I am a first year in the College of Engineering 
+I have taken a MATLAB programming classes and various classes where we had to use programing (ex: Machine Learning)
+

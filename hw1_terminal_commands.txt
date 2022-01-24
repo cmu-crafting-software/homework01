@@ -1,0 +1,39 @@
+HW1 Terminal Commands 
+
+git clone https://github.com/cmu-crafting-software/Homework01.git
+cd Homework01
+git branch nchetty
+git checkout nchetty
+ClassRoster.md
+git status 
+git add .
+git commit -m "Added Nikole Chetty to roster"
+git push origin nchetty
+
+echo I am a first year in the College of Engineering > student_facts.txt
+git status
+git add .
+git commit -m "Created student_facts with school info"
+git branch new_nchetty
+git checkout new_nchetty
+student_facts.txt 
+git status
+git add .
+git status
+git commit -m "Removed school info, added fun fact"
+git checkout nchetty
+student_facts.txt 
+git status 
+git add .
+git commit -m "Added prior class info"
+git status
+git merge new_nchetty
+student_facts.txt 
+git status 
+git add .
+git commit -m "Fixed conflict with student_facts for merge"
+echo HW1 Terminal Commands > hw1_terminal_commands.txt
+hw1_terminal_commands.txt
+git status
+git add .
+git commit -m "Added file with terminal commands"

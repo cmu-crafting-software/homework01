@@ -1,0 +1,47 @@
+Crafting Software HW1
+
+to clone repo once you are in the directory you want it in:
+git clone https://github.com/cmu-crafting-software/Homework01.git
+
+Checking the branch I’m on, making a new branch, and switching to it:
+cd Homework01 
+git branch
+git branch tri
+git checkout tri
+
+Adding name to class roster
+code ClassRoster.md 
+git status
+git add ClassRoster.md
+git commit -m"Added my name and andrewID to class roster"
+
+
+Push to Github
+git push --set-upstream origin tri
+
+Managing Merge Conflicts
+touch student_facts.txt
+code student_facts.txt
+git status
+git add
+git commit -m"added my year, major, and college to student facts file."
+git branch new_tri
+git branch
+git checkout new_tri
+code student_facts.txt
+git status
+git add
+git commit -m"removed self intro and added list of hobbies."
+git checkout tri
+git status
+git add
+git commit -m "included sentence about the programming laguages I can code in"
+git merge new_tri
+code student_facts.txt
+git status
+git add
+git commit -m"resolved conflicts so that there are three lines of info: 1my name, year and major, 2 coding languages i know, 3 hobbies i like."
+
+
+
+

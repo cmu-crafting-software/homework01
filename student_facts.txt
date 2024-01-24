@@ -1,1 +1,2 @@
 I am a third year PhD student in mechanical engineering.
+I mostly use Python and occasionally Matlab. I took a couple intro to CS classes in undergrad.

@@ -1,0 +1,26 @@
+git clone https://github.com/cmu-crafting-software/Homework01.git
+cd Homework01/
+git branch seonghaj
+git checkout seonghaj
+git status
+git add ClassRoster.md 
+git commit -m "HW1_Seonghan"
+git push
+git push --set-upstream origin seonghaj
+git status
+git add .
+git commit -m "Creat student fact file"
+git branch new_seonghaj
+git checkout new_seonghaj
+git status
+git add student_facts.txt 
+git commit -m "wrote a fun fact about me"
+git checkout seonghaj
+git status
+git add student_facts.txt 
+git commit -m "append new sentence"
+git merge new_seonghaj
+#edit the conflicts
+git status
+git add .
+git commit -m "resolved conflicts"

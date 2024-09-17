@@ -1,0 +1,27 @@
+git clone https://github.com/cmu-crafting-software/Homework01.git
+git branch morganc
+git checkout morganc
+git add ClassRoster.md
+git commit -m "added requested info for morgan chen to Class Roster"
+git remote add hw1 https://github.com/cmu-crafting-software/Homework01.git
+git push morganc 
+echo > student_facts.txt
+git add student_facts.txt
+git commit -m "..."
+git branch new_morganc
+git checkout new_morganc
+student_facts.txt
+git add student_facts.txt
+git commit -m "..."
+git checkout morganc
+git add student_facts.txt
+git commit -m "..."
+git merge new_morganc
+git add student_facts.txt
+git commit -m "..."
+echo > hw1Commands.txt
+git add hw1Commands.txt
+git commit -m "..."
+git status
+git pull hw1 morganc
+git push hw1 morganc

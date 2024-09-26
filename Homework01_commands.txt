@@ -1,0 +1,57 @@
+# Homework 01: Crafting Software
+# Katie Jordan
+
+# clone the repository
+git clone https://github.com/cmu-crafting-software/Homework01.git
+
+# create a local branch
+git branch khjordan
+open ClassRoster.md
+
+# manually add my name to the roster
+git add ClassRoster.md
+git commit -m "Add name to roster"
+
+# push branch to github
+git push origin main
+
+# manually opened pull request
+
+# create file, student_facts.txt
+cat > student_facts.txt
+I am a third year PhD student in the College of Engineering
+git add student_facts.txt
+git commit -m "create new file, student_facts.txt"
+git push origin khjordan 
+# I realized after the fact that we were only told to commit this, not to push to GitHub. Oops.
+
+# create new branch
+git branch new_khjordan
+git checkout new_khjordan
+
+# manually make changes
+open student_facts.txt
+
+# commit changes
+git add student_facts.txt
+git commit -m "add a fun fact, delete prior info from student_facts.txt"
+
+# change back to khjordan, make changes
+git checkout khjordan
+open student_facts.txt
+git add student_facts.txt
+git commit -m "add sentence about coding experience" 
+git merge khjordan/new_khjordan
+
+# CONFLICT (add/add): Merge conflict in student_facts.txt
+# Auto-merging student_facts.txt
+# Automatic merge failed; fix conflicts and then commit the result.
+open student_facts.txt
+git add student_facts.txt
+git commit -m "edit the file to contain three separate lines in the specified order"
+git merge khjordan/new_khjordan
+git push origin khjordan
+
+# create Homework01_commands.txt file
+cat > Homework01_commands.txt
+open Homework01_commands.txt

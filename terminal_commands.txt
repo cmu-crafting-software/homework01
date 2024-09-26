@@ -1,0 +1,35 @@
+Commands used for homework one:
+
+git clone  https://github.com/cmu-crafting-software/Homework01
+
+git branch jackj
+git checkout jackj
+git add ClassRoster.md
+git commit
+git push origin jackj
+
+-------------------------------------
+Manage Merge Conflicts
+
+copy con student_facts.txt
+"added info to text file"
+git add student_facts.txt
+git commit -m "added a file called student_facts.txt that includes my year and college"
+git branch new_jackj
+git checkout new_jackj
+"added info to text file"
+git add student_facts.txt
+git commit -m "added new info to text file and deleted old info"
+git checkout jackj
+"added info to text file"
+git add student_facts.txt
+git commit -m "added coding languages"
+git merge new_jackj
+"added all three lines to text file"
+git add student_facts.txt
+git commit -m "resolved conflicts between two text files"
+copy con terminal_commands.txt
+"added all commands to txt file"
+git add terminal_comands.txt
+git commit -m "added final file for homework 1"
+git push origin jackj

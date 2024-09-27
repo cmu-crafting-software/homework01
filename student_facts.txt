@@ -1,0 +1,4 @@
+I am a 1st year Chemical Engineering PhD student
+I have taken an intro Python course and used Matlab during my ChemE courses.
+I like to ski
+

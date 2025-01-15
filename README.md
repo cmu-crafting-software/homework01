@@ -41,10 +41,12 @@ In the branch that you created, you should make a change to the `ClassRoster.md`
 
 A quick note about Git commit messages: technically you can write them any way you want, and there are a few different conventions out there, but _the most common_ convention is this:
 
-- Keep the first (or, often, only) line of the commit message short: 50 characters or less.
-- Start with a capital letter.
-- Write in the _imperative voice_: for instance, you'd write **"Fix bug"** and not ~~"Fixed bug"~~ or ~~"Fixes bug"~~.
-- No ending punctuation.
+- Typically just one line:
+  - Start with a capital letter.
+  - Write in the _imperative voice_: for instance, you'd write **"Fix bug"** and not ~~"Fixed bug"~~ or ~~"Fixes bug"~~.
+  - No ending punctuation.
+  - 50 characters or less.
+- Commit messages _can_ have multiple lines but you probably won't use that in this class.
 
 Please use this convention for your commit messages in this class.
 

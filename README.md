@@ -109,7 +109,7 @@ Your commits to the repository will be viewable by us, and we will use them for 
 
 ## Assignment Review
 
-Because this is a new class, we are asking you to fill out a short survey to help us calibrate the homeworks. This survey is ungraded, but your input will be very valuable for us in improving the course both for this semester, and for future years. [**Fill out a short survey to help us improve the course!**](https://forms.gle/z3i3o2V8GWsvDYzJ9)
+Because this is a new class, we are asking you to fill out a short survey to help us calibrate the homeworks. This survey is ungraded, but your input will be very valuable for us in improving the course both for this semester, and for future years. [**Fill out a short survey to help us improve the course!**](https://forms.gle/FuStF6Xr1Q7hvW3a8)
 
 ## Grading
 

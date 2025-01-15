@@ -117,7 +117,6 @@ The total assignment is worth 100 points.
 
 | Item                        | Points  |
 | --------------------------- | ------- |
-| Create Github account       | 20      |
-| Make and commit change      | 40      |
-| Correctly open Pull Request | 40      |
+| Make and commit change      | 50      |
+| Correctly open Pull Request | 50      |
 | **Total**                   | **100** |

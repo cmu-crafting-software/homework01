@@ -3,3 +3,10 @@ git clone https://github.com/cmu-crafting-software/homework01
 
 ## create and switch to new branch
 git checkout -b arnavgar
+
+## adding my name to classroster.md and committing
+git add . ## add all changes
+git commit -m "Update class roster"
+
+## push to github repo
+git push --set-upstream origin arnavgar

@@ -1,0 +1,4 @@
+## clone repo
+ git clone https://github.com/cmu-crafting-software/homework01
+
+ 

@@ -26,5 +26,8 @@ git add student_facts.txt
 git commit -m "Include programming experience"
 
 git merge new-arnavgar
-
 ## then, manually resolve merge conflicts
+git add .           # include the 
+git commit -m "Fix merge conflicts"
+
+git push

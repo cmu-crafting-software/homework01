@@ -1,4 +1,5 @@
 ## clone repo
- git clone https://github.com/cmu-crafting-software/homework01
+git clone https://github.com/cmu-crafting-software/homework01
 
- 
+## create and switch to new branch
+git checkout -b arnavgar

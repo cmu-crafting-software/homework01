@@ -10,3 +10,21 @@ git commit -m "Update class roster"
 
 ## push to github repo
 git push --set-upstream origin arnavgar
+
+
+### managing merge conflicts
+git add student_facts.txt
+git commit -m "Include facts about me"
+
+git checkout -b new-arnavgar
+## modify student_facts.txt in vscode
+git add student_facts.txt
+git commit -m "Change information in student_facts"
+
+git switch arnavgar
+git add student_facts.txt
+git commit -m "Include programming experience"
+
+git merge new-arnavgar
+
+## then, manually resolve merge conflicts

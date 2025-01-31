@@ -1,2 +1,3 @@
 Year 1 - BME, College of Engineering
-I have taken biostatistics (R) and Intro to ML for BME (python)
+I have taken biostatistics (R) and Intro to ML for BME (python).
+Drink blood for breakfast.
